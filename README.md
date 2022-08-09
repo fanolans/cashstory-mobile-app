@@ -1,5 +1,7 @@
 # cashstory
 
+![S20806-152110](https://user-images.githubusercontent.com/85090127/183554401-1cc83e6c-027c-412e-9acf-d5b817aeb026.jpg)
+
 A new Flutter project.
 
 ## Getting Started
