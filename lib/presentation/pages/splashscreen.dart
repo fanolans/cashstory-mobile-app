@@ -1,5 +1,5 @@
 import 'dart:async';
-import 'package:cashstory/main.dart';
+import 'package:cashstory/presentation/pages/home_page.dart';
 import 'package:flutter/material.dart';
 
 import '../../utils/constants.dart';
@@ -27,8 +27,7 @@ class _SplashScreenState extends State<SplashScreen> {
     Navigator.pushReplacement(
       context,
       MaterialPageRoute(
-        builder: (BuildContext context) =>
-            const MyHomePage(title: 'Flutter Demo Home Page'),
+        builder: (BuildContext context) => const HomePage(),
       ),
     );
   }
