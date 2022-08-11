@@ -2,6 +2,8 @@ import 'dart:async';
 import 'package:cashstory/main.dart';
 import 'package:flutter/material.dart';
 
+import '../../utils/constants.dart';
+
 class SplashScreen extends StatefulWidget {
   const SplashScreen({Key? key}) : super(key: key);
 
@@ -38,7 +40,7 @@ class _SplashScreenState extends State<SplashScreen> {
       body: Center(
         child: Center(
           child: Image.asset(
-            'assets/images/cashstory_splashscreen.png',
+            '${assetImages}cashstory_splashscreen.png',
             height: 300,
             width: 300,
           ),
